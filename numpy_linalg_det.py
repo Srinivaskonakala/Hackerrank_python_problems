@@ -7,4 +7,4 @@ for i in range(a):
     arr.append(row)
 arr=numpy.array(arr)
 
-print(numpy.linalg.det(arr))
+print(round(numpy.linalg.det(arr),2))
